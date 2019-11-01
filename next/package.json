@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "mock-match-media": "^0.1.1",
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
