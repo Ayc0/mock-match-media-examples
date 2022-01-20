@@ -1,0 +1,8 @@
+{
+  "name": "mock-match-media-examples",
+  "private": true,
+  "workspaces": [
+    "create-react-app",
+    "next"
+  ]
+}

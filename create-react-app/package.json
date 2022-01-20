@@ -1,17 +1,20 @@
 {
+  "name": "example-cra",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-only": "^2.1.4"
+    "@blocz/react-responsive": "^3.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@testing-library/react": "^9.3.1",
-    "mock-match-media": "^0.1.1",
-    "react-scripts": "^3.2.0"
+    "@testing-library/react": "^12.1.2",
+    "mock-match-media": "^0.2.1",
+    "react-scripts": "^5.0.0"
   },
   "browserslist": {
     "production": [

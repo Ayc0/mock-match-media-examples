@@ -1,9 +1,10 @@
 const { createServer } = require("http");
 const { parse } = require("url");
 const next = require("next");
-const { matchMedia, setMedia } = require("mock-match-media");
 
-global.matchMedia = matchMedia;
+require("mock-match-media/polyfill");
+
+const { setMedia } = require("mock-match-media");
 
 const port = parseInt(process.env.PORT, 10) || 3000;
 const dev = process.env.NODE_ENV !== "production";
@@ -15,11 +16,11 @@ app.prepare().then(() => {
     const { pathname, query } = parsedUrl;
 
     setMedia({
-      "prefers-color-scheme": "dark"
+      "prefers-color-scheme": "dark",
     });
 
     app.render(req, res, pathname, query);
-  }).listen(port, err => {
+  }).listen(port, (err) => {
     if (err) throw err;
     console.log(`> Ready on http://localhost:${port}`);
   });
