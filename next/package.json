@@ -8,8 +8,8 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "mock-match-media": "^0.2.1",
-    "next": "^12.0.8",
+    "mock-match-media": "^0.3.0",
+    "next": "^12.0.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
