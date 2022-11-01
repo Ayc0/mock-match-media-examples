@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^12.1.2",
-    "mock-match-media": "^0.3.0",
+    "mock-match-media": "^0.4.0",
     "react-scripts": "^5.0.0"
   },
   "browserslist": {
