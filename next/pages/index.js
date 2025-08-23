@@ -11,7 +11,7 @@ export async function getServerSideProps() {
   require("mock-match-media/polyfill");
   const { setMedia } = require("mock-match-media");
   setMedia({
-    "prefers-color-scheme": "dark",
+    prefersColorScheme: "dark",
   });
 
   return {

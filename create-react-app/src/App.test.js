@@ -9,7 +9,7 @@ import App from "./App";
 
 test("renders dark mode", () => {
   setMedia({
-    "prefers-color-scheme": "dark",
+    prefersColorScheme: "dark",
   });
   const component = render(<App />);
   expect(component.baseElement.textContent).toBe("dark");
@@ -17,7 +17,7 @@ test("renders dark mode", () => {
 
 test("renders light mode", () => {
   setMedia({
-    "prefers-color-scheme": "light",
+    prefersColorScheme: "light",
   });
   const component = render(<App />);
   expect(component.baseElement.textContent).toBe("light");

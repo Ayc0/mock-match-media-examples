@@ -16,7 +16,7 @@ app.prepare().then(() => {
     const { pathname, query } = parsedUrl;
 
     setMedia({
-      "prefers-color-scheme": "dark",
+      prefersColorScheme: "dark",
     });
 
     app.render(req, res, pathname, query);
