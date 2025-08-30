@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "mock-match-media": "^v1.0.0-alpha.3",
+    "mock-match-media": "^1.0.0-alpha.5",
     "next": "^13.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
