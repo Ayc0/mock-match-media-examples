@@ -5812,10 +5812,10 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-mock-match-media@^1.0.0-alpha.5:
-  version "1.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/mock-match-media/-/mock-match-media-1.0.0-alpha.5.tgz#c494937f2d7092aa1ef26a3201dc4b0bae3b2a19"
-  integrity sha512-zRJVKLvVlpp81z1nC2Bt79kDRJm9A7j9l9S9n6TsrFV6FIKQ31aDihC81Wn+w0rb/CXC6dZ9wpJ9pivbZL9Lmg==
+mock-match-media@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/mock-match-media/-/mock-match-media-1.0.0.tgz#ee190677c36046dd608430e0e04581eeddb300bb"
+  integrity sha512-nKuzQB4eUUXZB/UvHEnBW3mGgFvi8EddopQcSn7AhwuNeyAN8qWkR/Y14GYZ82VbUYi8g1wNrLb4Yw71HFE8uw==
   dependencies:
     media-query-fns "^2.1.2"
   optionalDependencies:
