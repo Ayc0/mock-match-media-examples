@@ -1508,12 +1508,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blocz/react-responsive@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@blocz/react-responsive@npm:3.0.2"
+"@blocz/react-responsive@npm:^5.1.0-alpha.1":
+  version: 5.1.0-alpha.1
+  resolution: "@blocz/react-responsive@npm:5.1.0-alpha.1"
   peerDependencies:
-    react: 16.8.0 - 17.x.x
-  checksum: 10c0/ac411825ccceff65ea7e0bc9010b2789eb35e4e29690ea16a5145fd84af1432dec9954f1aba61b5b97675e4ce2c8da9d8cdb307ba9755928e20d556060f55920
+    react: 18.0.0 - 19.x.x
+  checksum: 10c0/0f6f4fa725aef750219dc4b670f68ed1a3a36d288948ad4c1c3d691821a86d7e94c0daff436fe0db16b461a51458a87d9af2963be691eb3b4b970bb51624accb
   languageName: node
   linkType: hard
 
@@ -5420,7 +5420,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example-cra@workspace:create-react-app"
   dependencies:
-    "@blocz/react-responsive": "npm:^3.0.2"
+    "@blocz/react-responsive": "npm:^5.1.0-alpha.1"
     "@testing-library/react": "npm:^13.4.0"
     mock-match-media: "npm:^1.0.3"
     react: "npm:^18.2.0"
