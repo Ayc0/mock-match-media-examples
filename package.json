@@ -4,5 +4,6 @@
   "workspaces": [
     "create-react-app",
     "next"
-  ]
+  ],
+  "packageManager": "yarn@4.15.0"
 }

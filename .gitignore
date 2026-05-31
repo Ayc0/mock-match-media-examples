@@ -1,4 +1,8 @@
-node_modules/
 .DS_Store/
 build/
 .next/
+
+# Yarn
+node_modules/
+.yarn/*
+!.yarn/releases/
